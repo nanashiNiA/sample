@@ -1,23 +1,16 @@
 body {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    min-height: 100vh;
-}
-
-.container {
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    background: lightcyan;
+    width: 800px;
+    margin: auto;
 }
 
 h1 {
-    background: linear-gradient(45deg, #3498db, #8e44ad);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: maroon;
+    text-align: center;
 }
 
-img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
+p {
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px;
 }
